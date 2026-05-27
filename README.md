@@ -1,7 +1,8 @@
 # IMR IECE Demo
 
-This demo is scoped to the IECE paper presentation workflow. The default
-dataset is:
+This demo is scoped to the ***Iterative** **Mutual** **Refinement** **Network for** **Implicit** **Emotion** **Cause** **Extraction*** paper presentation workflow. 
+
+The default dataset is:
 
 ```text
 data/Implicit_emotion_cause_dataset.xml
@@ -13,8 +14,7 @@ data/Implicit_emotion_cause_dataset.xml
 uv sync
 ```
 
-On the first run, the training and search entry points automatically precompute
-embeddings if they are missing. You can also run the precomputation manually:
+On the first run, the training and search entry points automatically precompute embeddings if they are missing. You can also run the precomputation manually:
 
 ```bash
 uv run python -m src.prepare_embeddings
