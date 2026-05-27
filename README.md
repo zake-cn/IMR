@@ -54,8 +54,8 @@ uv run python -m src.train --no-hparams
 
 Training logs are saved to `logs/training_*.jsonl`. Each epoch includes:
 
-- `train_loss` (joint ER + IECE optimization loss)
-- `val_loss` (joint ER + IECE optimization loss)
+- `train_loss`
+- `val_loss` 
 - `val_precision`
 - `val_recall`
 - `val_f1`
